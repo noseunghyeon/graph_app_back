@@ -14,5 +14,6 @@ app.get("/", (req, res) => {
 app.use(require("./router/salesMapRoute"));
 app.use(require("./router/visitersRoute"));
 app.use(require("./router/customersRoute"));
+app.use(require("./router/revenueRoute"));
 
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
