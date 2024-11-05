@@ -16,5 +16,7 @@ app.use(require("./router/visitersRoute"));
 app.use(require("./router/customersRoute"));
 app.use(require("./router/revenueRoute"));
 app.use(require("./router/targeyRealityRoute"));
+app.use(require("./router/topProductsRoute"));
+app.use(require("./router/volumeServicesRoute"));
 
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
